@@ -1,4 +1,26 @@
 
+h1 {
+  color: navy;
+  margin-left: 20px
+}
+
+footer {
+
+     background: #808;
+     color:          red;
+     font-size:      1em ;
+     text-align:     center;
+     line-height:    1.2em;
+
+}
+
+h3 {
+      text-align: center;
+      color: yellow;
+      font-size: 1em;
+
+
+
 #addBook {
   border: 2px solid #2b4570;
   background-color: #aec3e5;
@@ -8,4 +30,5 @@
   height: 150px;
   width: 150px;
   border: 1px solid black;
+
 }
