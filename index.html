@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -23,31 +22,36 @@
     <h1>Hackathon Web Store</h1>
 
     <main>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-6 book" id="book1">
+            <h1 class="title">Girl with Dragon Tattoo</h1>
+            <h2 class="author">Stieg Larsonn</h2>
+             <ul>
+               <li class="price">Price: $8.60</li>
+               <li class="description">This is a great book about a girl with a tattoo of a dragon/</li>
+             </ul>
+            <img src="https://images.gr-assets.com/books/1327868566l/2429135.jpg" class="pic" alt>
+          </div>
 
-      <div class="book" id="book1">
-        <h1>Girl with Dragon Tattoo</h1>
-        <h2>Stieg Larsonn</h2>
-        <ul>
-          <li>Price: $8.60</li>
-          <li>This is a great book about a girl with a tattoo of a dragon/</li>
-        </ul>
-        <img src="https://littlemovieposters.files.wordpress.com/2014/04/the-girl-dragon.jpg" id="book1" alt>
-      </div>
+          <div class="col-sm-6 book" id="book2">
+            <h1 class="title">The life we bury</h1>
+            <h2 class="author">Allen Eskens</h2>
+            <ul>
+              <li class="price">12.39</li>
+              <li class="description">College student Joe Talbert has the modest goal of completing a writing assignment
+             for an English class. His task is to interview a stranger and write a brief biography of the person.
+             With deadlines looming, Joe heads to a nearby nursing home to find a willing subject.</li>
+            </ul>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51A4KkO7qzL._SX330_BO1,204,203,200_.jpg" class="pic" alt>
+          </div>
 
-      <div class="book" id="book2">
-        <h1>The life we bury</h1>
-        <h2>Allen Eskens</h2>
-        <ul>
-          <li>12.39</li>
-          <li>College student Joe Talbert has the modest goal of completing a writing assignment
-            for an English class. His task is to interview a stranger and write a brief biography of the person.
-            With deadlines looming, Joe heads to a nearby nursing home to find a willing subject.</li>
-        </ul>
-        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432577152i/25599763._UY200_.jpg" id="book2" alt>
       </div>
-    </main>
-    <br><br>
-    <div class = "container" >
+    </div>
+  </main>
+
+  <div class = "container" >
       <div class="row">
         <div class="col-sm" id="addBook">
           <h2>Add a Book</h2>
