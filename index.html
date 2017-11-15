@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav class=container>
@@ -21,10 +21,10 @@
     </nav>
 
     <h1>Hackathon Web Store</h1>
-    
+
     <main>
 
-      <div class="book" id="1">
+      <div class="book" id="book1">
         <h1>Girl with Dragon Tattoo</h1>
         <h2>Stieg Larsonn</h2>
         <ul>
@@ -34,7 +34,7 @@
         <img src="https://littlemovieposters.files.wordpress.com/2014/04/the-girl-dragon.jpg" id="book1" alt>
       </div>
 
-      <div class="book" id="2">
+      <div class="book" id="book2">
         <h1>The life we bury</h1>
         <h2>Allen Eskens</h2>
         <ul>
@@ -45,8 +45,36 @@
         </ul>
         <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432577152i/25599763._UY200_.jpg" id="book2" alt>
       </div>
-    </main>  
-    
+    </main>
+    <br><br>
+    <div class = "container" >
+      <div class="row">
+        <div class="col-sm" id="addBook">
+          <h2>Add a Book</h2>
+          <form>
+            Title: <br> <input type="text" name="title">
+            <br><br>
+            Author: <br><input type="text" name="author">
+            <br><br>
+            Price: <br><input type="text" name="price">
+            <br><br>
+            ID: <br><input type="text" name="id">
+            <br><br>
+            Picture Link:<br> <input type="text" name="">
+            <br><br>
+            Description:<br> <input type="text" name="description">
+          </form>
+          <br>
+        </div>
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </div>
+
     <footer>Sample Footer</footer>
 
     <!-- Optional JavaScript -->
