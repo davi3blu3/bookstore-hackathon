@@ -1,0 +1,22 @@
+h1 {
+  color: navy;
+  margin-left: 20px
+}
+
+footer {
+
+     background: #808;
+     color:          red;
+     font-size:      1em ;
+     text-align:     center;
+     line-height:    1.2em;
+
+}
+
+h3 {
+      text-align: center;
+      color: yellow;
+      font-size: 1em;
+
+
+}
