@@ -1,3 +1,4 @@
+// BOOK DATA
 var book1 = {
   "id": 1,
   "title": "Girl with the Dragon Tattoo",
@@ -16,7 +17,7 @@ var book2 = {
   "description": "College student Joe Talbert has the modest goal of completing a writing assignment for an English class. His task is to interview a stranger and write a brief biography of the person. With deadlines looming, Joe heads to a nearby nursing home to find a willing subject."
 };
 
-var bookNew = {
+var book3 = {
 "id": 3,
 "title": "the new title",
 "author": "Semore Words",
@@ -25,16 +26,23 @@ var bookNew = {
 "description": "Lots of stuff"
 };
 
-var insertText = `<div class="col-sm-6 book" id="book` + bookNew.id + `">
-    <h1 class="title">` + bookNew.title + `</h1>
-    <h2 class="author">` + bookNew.author + `</h2>
-    <ul>
-      <li class="price">` + bookNew.price + `</li>
-      <li class="description">` + bookNew.description + `</li>
-    </ul>
-  </div>`;
 
- $("#bookAdd").append(insertText);
+// FUNCTION POPULATE THE HTML PAGE WITH EACH BOOK CALLED
+var insertBook = function(book) {
+  var insertText = `<div class="col-sm-6 book" id="book` + book.id + `">
+      <h1 class="title">` + book.title + `</h1>
+      <h2 class="author">` + book.author + `</h2>
+      <ul>
+        <li class="price">` + book.price + `</li>
+        <li class="description">` + book.description + `</li>
+      </ul>
+      <img src="` + book.picture_url + `" class="pic" alt>
+    </div>`;
 
+   $("#bookAdd").append(insertText);
+}
 
-
+// CALLING MY FUNCTION
+insertBook(book1);
+insertBook(book2);
+insertBook(book3);
