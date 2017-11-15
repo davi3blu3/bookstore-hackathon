@@ -8,8 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
   </head>
   <body>
     <nav class=container>
@@ -24,9 +22,9 @@
     <h1>Hackathon Web Store</h1>
 
     <main>
-
       <div class="container">
         <div class="row">
+          
           <div class="col-sm-6 book" id="book1">
             <h1 class="title">Girl with Dragon Tattoo</h1>
             <h2 class="author">Stieg Larsonn</h2>
@@ -34,30 +32,52 @@
                <li class="price">Price: $8.60</li>
                <li class="description">This is a great book about a girl with a tattoo of a dragon/</li>
              </ul>
+            <img src="https://images.gr-assets.com/books/1327868566l/2429135.jpg" class="pic" alt>
+          </div>
 
-           <img src="https://images.gr-assets.com/books/1327868566l/2429135.jpg" class="pic" alt>
-       </div>
-
-       <div class="col-sm-6 book" id="book2">
-
-         <h1 class="title">The life we bury</h1>
-         <h2 class="author">Allen Eskens</h2>
-
-          <ul>
-           <li class="price">12.39</li>
-           <li class="description">College student Joe Talbert has the modest goal of completing a writing assignment
+          <div class="col-sm-6 book" id="book2">
+            <h1 class="title">The life we bury</h1>
+            <h2 class="author">Allen Eskens</h2>
+            <ul>
+              <li class="price">12.39</li>
+              <li class="description">College student Joe Talbert has the modest goal of completing a writing assignment
              for an English class. His task is to interview a stranger and write a brief biography of the person.
              With deadlines looming, Joe heads to a nearby nursing home to find a willing subject.</li>
-          </ul>
-
-          <img src="https://images-na.ssl-images-amazon.com/images/I/51A4KkO7qzL._SX330_BO1,204,203,200_.jpg" class="pic" alt>
-       </div>
+            </ul>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51A4KkO7qzL._SX330_BO1,204,203,200_.jpg" class="pic" alt>
+          </div>
 
       </div>
     </div>
+  </main>
 
+  <div class = "container" >
+      <div class="row">
+        <div class="col-sm" id="addBook">
+          <h2>Add a Book</h2>
+          <form>
+            Title: <br> <input type="text" name="title">
+            <br><br>
+            Author: <br><input type="text" name="author">
+            <br><br>
+            Price: <br><input type="text" name="price">
+            <br><br>
+            ID: <br><input type="text" name="id">
+            <br><br>
+            Picture Link:<br> <input type="text" name="">
+            <br><br>
+            Description:<br> <input type="text" name="description">
+          </form>
+          <br>
+        </div>
+        <div class="col-sm">
 
-    </main>
+        </div>
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </div>
 
     <footer>Sample Footer</footer>
 
